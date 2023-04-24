@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# IGNORE
+data/IS_responses.csv
+
+
 # C extensions
 *.so
 
