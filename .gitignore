@@ -6,6 +6,15 @@ __pycache__/
 # IGNORE
 data/IS_responses.csv
 
+output/regression_summary.tex
+output/regression_summary.aux
+output/regression_summary.log
+
+output/regression.summary_complete.tex
+output/regression.summary_complete.log
+output/regression.summary_complete.aux
+
+output/regression_summary.pdf
 
 # C extensions
 *.so
