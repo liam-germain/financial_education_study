@@ -9,6 +9,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import statsmodels.api as sm
 from stargazer.stargazer import Stargazer
+import statsmodels.api as sm
 
 # Load preprocessed data
 # data = preprocess_data()
@@ -54,7 +55,6 @@ def fit_linear_regression(data, target, features):
     return model
 
 
-import statsmodels.api as sm
 
 
 def run_linear_regression(data, target_column='How satisfied are you with your investment performance?'):
