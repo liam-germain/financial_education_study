@@ -3,8 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
+
+
 # IGNORE
 data/IS_responses.csv
+output/regressgion_summary_modified.tex
+output/regressgion_summary.tex
+output/regressgion_summary.log
+output/regressgion_summary.aux
+output/regressgion_summary.pdf
 
 output/regression_summary.tex
 output/regression_summary.aux

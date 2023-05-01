@@ -1,13 +1,15 @@
+\documentclass{article}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{calc}
+\begin{document}
+\begin{adjustbox}{max width=\paperwidth-2cm,center}
 
-    \documentclass{article}
-    \usepackage{booktabs}
-    \begin{document}
-    \begin{table}[!htbp] \centering
-\begin{tabular}{@{\extracolsep{5pt}}lccc}
+\begin{tabular}{|l|c|c|c|}
 \\[-1.8ex]\hline
 \hline \\[-1.8ex]
-& \multicolumn{3}{c}{\textit{Dependent variable:}} \
-\cr \cline{3-4}
+& \multicolumn{3}{c|}{\textit{Dependent variable:}} \
+
 \\[-1.8ex] & (1) & (2) & (3) \\
 \hline \\[-1.8ex]
  How old are you? & -0.137$^{}$ & -0.480$^{**}$ & \\
@@ -26,8 +28,8 @@
  F Statistic & 39.476$^{***}$ (df = 2.0; 21.0) & 6.613$^{***}$ (df = 2.0; 21.0) & 43.599$^{***}$ (df = 2.0; 21.0) \\
 \hline
 \hline \\[-1.8ex]
-\textit{Note:} & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\multicolumn{4}{|l|}{\textit{Note:} $^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\hline
 \end{tabular}
-\end{table}
-    \end{document}
-    
+\end{adjustbox}
+\end{document}
