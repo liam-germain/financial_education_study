@@ -5,6 +5,11 @@ __pycache__/
 
 # IGNORE
 data/IS_responses.csv
+output/regressgion_summary_modified.tex
+output/regressgion_summary.tex
+output/regressgion_summary.log
+output/regressgion_summary.aux
+output/regressgion_summary.pdf
 
 
 # C extensions
